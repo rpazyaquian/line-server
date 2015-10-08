@@ -57,7 +57,7 @@ Ideally, the system would handle incoming requests in parallel. In reality, Ring
 * [Leiningen](http://leiningen.org/) is the de facto unofficial Clojure build tool. Almost every Clojure project starts here.
 * [Ring](https://github.com/ring-clojure/ring) and [Compojure](https://github.com/weavejester/compojure) are two of the most common and well-supported HTTP libraries available for Clojure.
 
-Clojure requires relatively little third party software, thanks to its powerful core functionality, and an emphasis on simplicyt and bottom-up development. However, it encourages building software from smaller libraries and there is a wide selection available. And, of course, Java interop means you can use any Java library in a Clojure program.
+Clojure requires relatively little third party software, thanks to its powerful core functionality, and an emphasis on simplicity and bottom-up development. However, it encourages building software from smaller libraries and there is a wide selection available. And, of course, Java interop means you can use any Java library in a Clojure program.
 
 ### How long did you spend on this exercise? If you had unlimited more time to spend on this, how would you spend it and how would you prioritize each item?
 
