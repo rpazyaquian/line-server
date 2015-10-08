@@ -4,11 +4,11 @@
             [line-server.handler :refer :all]))
 
 (deftest test-app
-  (testing "main route"
-    (let [response (app (mock/request :get "/"))]
+  (testing "1st line of 50"
+    (let [response (app (mock/request :get "/50/lines/1"))]
       (is (= (:status response) 200))
-      (is (= (:body response) "Hello World"))))
+      (is (= (:body response) "All work and no play makes Jack a dull boy. Line #: 1"))))
 
-  (testing "not-found route"
-    (let [response (app (mock/request :get "/invalid"))]
-      (is (= (:status response) 404)))))
+  (testing "51st line of 50"
+    (let [response (app (mock/request :get "/50/lines/51"))]
+      (is (= (:status response) 413)))))
