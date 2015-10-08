@@ -16,6 +16,8 @@ To build dependencies: `lein deps`.
 
 To open REPL: `lein repl`.
 
+To test: `lein test`.
+
 To run application: `lein ring server-headless`.
 
 To build: `lein ring uberjar`. (You can run the uberjar with `java -jar target/line-server-0.1.0-SNAPSHOT-standalone.jar`.)
