@@ -38,7 +38,7 @@ The basic program flow is:
 
 ### How will your system perform with a 1 GB file? a 10 GB file? a 100 GB file?
 
-Currently, the system loads each file into memory and stores them in vectors (Clojure data structures analogous to arrays). This is so that after initial startup, lookups for any valid line in any valid file are in constant time O(1), as arrays (and thereby vectors) have constant-time access. For simple use cases and smaller files of about 100-1000 lines, this is acceptable, but it's quickly apparent that this does not scale as file size becomes larger. For larger files like those, it would be better to retrieve the lines from a database. Clojure has good support for RDBMS approaches via various SQL handling libraries and native compatibility with JDBC.
+Currently, the system loads each file's lines into memory and stores them in vectors (Clojure data structures analogous to arrays), keyed by file name. This is so that after initial startup, lookups for any valid line in any valid file are in constant time O(1), as arrays (and thereby vectors) have constant-time access. For simple use cases and smaller files of about 100-1000 lines, this is acceptable, but it's quickly apparent that this does not scale as file size becomes larger. For larger files like those, it would be better to retrieve the lines from a database. Clojure has good support for RDBMS approaches via various SQL handling libraries and native compatibility with JDBC.
 
 ### How will your system perform with 100 users? 10000 users? 1000000 users?
 
