@@ -10,7 +10,7 @@ I chose Clojure because I feel that it is a very clean and simple high-level lan
 
 ## How to Build and Run
 
-Clojure projects generally use [Leiningen](http://leiningen.org/) as a build tool, dependency manager, and development environment. Thus, **building and running this application requires Leiningen to be installed**. After installation, the application can be built and run simply by invoking the requisite `lein` commands. `build.sh` and `run.sh` are provided, but assume that Leiningen is already installed.
+Clojure projects generally use [Leiningen](http://leiningen.org/) as a build tool, dependency manager, and development environment. Thus, **building and running this application requires Leiningen to be installed**. On OSX, [Homebrew](https://github.com/Homebrew/homebrew) can install Leiningen for you via `brew install leiningen`. After installation, the application can be built and run simply by invoking the requisite `lein` commands. `build.sh` and `run.sh` are provided, but assume that Leiningen is already installed.
 
 To build dependencies: `lein deps`.
 
