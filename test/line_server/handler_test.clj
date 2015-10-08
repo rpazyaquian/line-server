@@ -3,7 +3,7 @@
             [ring.mock.request :as mock]
             [line-server.handler :refer :all]))
 
-(deftest test-app
+(deftest line-access
   (testing "1st line of 50"
     (let [response (app (mock/request :get "/50/lines/1"))]
       (is (= (:status response) 200))
