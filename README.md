@@ -61,7 +61,9 @@ Clojure requires relatively little third party software, thanks to its powerful 
 
 ### How long did you spend on this exercise? If you had unlimited more time to spend on this, how would you spend it and how would you prioritize each item?
 
-I spent about 2 hours on the core functionality, out of concern for submitting a completed project in a timely manner. There is a *lot* left out that I'd like to add:
+I spent about 2 hours on the core functionality, out of concern for submitting a completed project in a timely manner. I spent about 30-45 minutes on README.md.
+
+There is a *lot* left out that I'd like to add:
 
 1. Proper benchmarking of file line access running times (e.g. for proving constant time lookup).
 2. Comprehensive automated testing for API endpoints and aforementioned benchmarking.
