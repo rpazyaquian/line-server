@@ -2,7 +2,7 @@
 
 This is an implementation of the [Line Server Problem](https://salsify.github.io/line-server.html) in Clojure, using Ring and Compojure.
 
-I chose Clojure because I feel that it is a very clean and simple high-level language, and that the requirements of the project were simple enough that I could take advantage of the language's good parts. I don't code professionally in Clojure, so I rarely do web development with Ring or Compojure, but I took this opportunity to complete the project in a language I want to get more experience in.
+I chose Clojure because I feel that it is a very clean and simple high-level language, and that the requirements of the project were simple enough that I could take advantage of the language's best features. I don't code professionally in Clojure, so I rarely do web development with Ring or Compojure, but I took this opportunity to complete the project in a language I want to get more experience in.
 
 ## What's Clojure?
 
