@@ -67,7 +67,7 @@ There is a *lot* left out that I'd like to add:
 
 1. Proper benchmarking of file line access running times (e.g. for proving constant time lookup).
 2. Comprehensive automated testing for API endpoints and aforementioned benchmarking.
-3. Asynchronous, concurrent request handling via a library built specifically for scalability, such as [http-kit](http://www.http-kit.org/600k-concurrent-connection-http-kit.html)
+3. Asynchronous, concurrent request handling via a library built specifically for scalability, such as [http-kit](http://www.http-kit.org/600k-concurrent-connection-http-kit.html).
 4. Explicit specification and diagramming of program flow.
 5. Caching for line requests.
 6. Handling of large files via an RDBMS, or my favorite fact-based database, Datomic.
